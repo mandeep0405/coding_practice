@@ -2,6 +2,112 @@
 
 A comprehensive collection of 75 essential LeetCode problems for technical interview preparation.
 
+## Table of Contents
+
+Click on any problem to jump directly to its implementation:
+
+### Complete Problem Index (1-75)
+
+1. [Two Sum](#1-two-sum)
+2. [Valid Parentheses](#2-valid-parentheses)
+3. [Merge Two Sorted Lists](#3-merge-two-sorted-lists)
+4. [Best Time to Buy and Sell Stock](#4-best-time-to-buy-and-sell-stock)
+5. [Valid Palindrome](#5-valid-palindrome)
+6. [Invert Binary Tree](#6-invert-binary-tree)
+7. [Valid Anagram](#7-valid-anagram)
+8. [Binary Search](#8-binary-search)
+9. [Flood Fill](#9-flood-fill)
+10. [Lowest Common Ancestor of a Binary Search Tree](#10-lowest-common-ancestor-of-a-binary-search-tree)
+11. [Balanced Binary Tree](#11-balanced-binary-tree)
+12. [Linked List Cycle](#12-linked-list-cycle)
+13. [Implement Queue using Stacks](#13-implement-queue-using-stacks)
+14. [First Bad Version](#14-first-bad-version)
+15. [Ransom Note](#15-ransom-note)
+16. [Climbing Stairs](#16-climbing-stairs)
+17. [Longest Palindrome](#17-longest-palindrome)
+18. [Reverse Linked List](#18-reverse-linked-list)
+19. [Majority Element](#19-majority-element)
+20. [Add Binary](#20-add-binary)
+21. [Diameter of Binary Tree](#21-diameter-of-binary-tree)
+22. [Middle of the Linked List](#22-middle-of-the-linked-list)
+23. [Maximum Depth of Binary Tree](#23-maximum-depth-of-binary-tree)
+24. [Contains Duplicate](#24-contains-duplicate)
+25. [Insert Interval](#25-insert-interval)
+26. [01 Matrix](#26-01-matrix)
+27. [K Closest Points to Origin](#27-k-closest-points-to-origin)
+28. [Longest Substring Without Repeating Characters](#28-longest-substring-without-repeating-characters)
+29. [3Sum](#29-3sum)
+30. [Binary Tree Level Order Traversal](#30-binary-tree-level-order-traversal)
+31. [Clone Graph](#31-clone-graph)
+32. [Evaluate Reverse Polish Notation](#32-evaluate-reverse-polish-notation)
+33. [Course Schedule](#33-course-schedule)
+34. [Implement Trie (Prefix Tree)](#34-implement-trie-prefix-tree)
+35. [Coin Change](#35-coin-change)
+36. [Product of Array Except Self](#36-product-of-array-except-self)
+37. [Min Stack](#37-min-stack)
+38. [Validate Binary Search Tree](#38-validate-binary-search-tree)
+39. [Number of Islands](#39-number-of-islands)
+40. [Rotting Oranges](#40-rotting-oranges)
+41. [Search in Rotated Sorted Array](#41-search-in-rotated-sorted-array)
+42. [Combination Sum](#42-combination-sum)
+43. [Permutations](#43-permutations)
+44. [Merge Intervals](#44-merge-intervals)
+45. [Lowest Common Ancestor of a Binary Tree](#45-lowest-common-ancestor-of-a-binary-tree)
+46. [Time Based Key-Value Store](#46-time-based-key-value-store)
+47. [Accounts Merge](#47-accounts-merge)
+48. [Sort Colors](#48-sort-colors)
+49. [Word Break](#49-word-break)
+50. [Partition Equal Subset Sum](#50-partition-equal-subset-sum)
+51. [String to Integer (atoi)](#51-string-to-integer-atoi)
+52. [Spiral Matrix](#52-spiral-matrix)
+53. [Subsets](#53-subsets)
+54. [Binary Tree Right Side View](#54-binary-tree-right-side-view)
+55. [Longest Palindromic Substring](#55-longest-palindromic-substring)
+56. [Unique Paths](#56-unique-paths)
+57. [Construct Binary Tree from Preorder and Inorder Traversal](#57-construct-binary-tree-from-preorder-and-inorder-traversal)
+58. [Container With Most Water](#58-container-with-most-water)
+59. [Letter Combinations of a Phone Number](#59-letter-combinations-of-a-phone-number)
+60. [Word Search](#60-word-search)
+61. [Find All Anagrams in a String](#61-find-all-anagrams-in-a-string)
+62. [Minimum Height Trees](#62-minimum-height-trees)
+63. [Task Scheduler](#63-task-scheduler)
+64. [LRU Cache](#64-lru-cache)
+65. [Kth Smallest Element in a BST](#65-kth-smallest-element-in-a-bst)
+66. [Minimum Window Substring](#66-minimum-window-substring)
+67. [Serialize and Deserialize Binary Tree](#67-serialize-and-deserialize-binary-tree)
+68. [Trapping Rain Water](#68-trapping-rain-water)
+69. [Find Median from Data Stream](#69-find-median-from-data-stream)
+70. [Word Ladder](#70-word-ladder)
+71. [Basic Calculator](#71-basic-calculator)
+72. [Maximum Profit in Job Scheduling](#72-maximum-profit-in-job-scheduling)
+73. [Merge k Sorted Lists](#73-merge-k-sorted-lists)
+74. [Largest Rectangle in Histogram](#74-largest-rectangle-in-histogram)
+75. [Binary Tree Maximum Path Sum](#75-binary-tree-maximum-path-sum)
+
+### Problems by Category
+
+**Arrays & Strings:**
+[1](#1-two-sum) | [4](#4-best-time-to-buy-and-sell-stock) | [5](#5-valid-palindrome) | [7](#7-valid-anagram) | [17](#17-longest-palindrome) | [20](#20-add-binary) | [24](#24-contains-duplicate) | [28](#28-longest-substring-without-repeating-characters) | [36](#36-product-of-array-except-self) | [51](#51-string-to-integer-atoi) | [52](#52-spiral-matrix) | [55](#55-longest-palindromic-substring) | [61](#61-find-all-anagrams-in-a-string)
+
+**Two Pointers:**
+[5](#5-valid-palindrome) | [15](#15-ransom-note) | [29](#29-3sum) | [58](#58-container-with-most-water) | [68](#68-trapping-rain-water)
+
+**Binary Search:**
+[8](#8-binary-search) | [14](#14-first-bad-version) | [41](#41-search-in-rotated-sorted-array) | [46](#46-time-based-key-value-store)
+
+**Trees:**
+[6](#6-invert-binary-tree) | [10](#10-lowest-common-ancestor-of-a-binary-search-tree) | [11](#11-balanced-binary-tree) | [21](#21-diameter-of-binary-tree) | [23](#23-maximum-depth-of-binary-tree) | [30](#30-binary-tree-level-order-traversal) | [38](#38-validate-binary-search-tree) | [45](#45-lowest-common-ancestor-of-a-binary-tree) | [54](#54-binary-tree-right-side-view) | [57](#57-construct-binary-tree-from-preorder-and-inorder-traversal) | [65](#65-kth-smallest-element-in-a-bst) | [67](#67-serialize-and-deserialize-binary-tree) | [75](#75-binary-tree-maximum-path-sum)
+
+**Graphs:**
+[9](#9-flood-fill) | [31](#31-clone-graph) | [33](#33-course-schedule) | [39](#39-number-of-islands) | [40](#40-rotting-oranges) | [47](#47-accounts-merge) | [62](#62-minimum-height-trees) | [70](#70-word-ladder)
+
+**Dynamic Programming:**
+[16](#16-climbing-stairs) | [35](#35-coin-change) | [49](#49-word-break) | [50](#50-partition-equal-subset-sum) | [56](#56-unique-paths) | [72](#72-maximum-profit-in-job-scheduling)
+
+**Backtracking:**
+[42](#42-combination-sum) | [43](#43-permutations) | [53](#53-subsets) | [59](#59-letter-combinations-of-a-phone-number) | [60](#60-word-search)
+
+---
 
 ## 1. Two Sum
 
