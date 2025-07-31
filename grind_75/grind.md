@@ -3,7 +3,6 @@
 A comprehensive collection of 75 essential LeetCode problems for technical interview preparation.
 
 
-
 ## 1. Two Sum
 
 **Difficulty:** Easy
